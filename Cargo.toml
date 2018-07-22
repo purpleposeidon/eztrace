@@ -1,0 +1,11 @@
+[package]
+name = "eztrace"
+version = "0.1.0"
+authors = ["neptunepink <purpleposeidon@gmail.com>"]
+keywords = ["debug", "trace", "dev"]
+categories = ["development-tools::debugging"]
+
+[lib]
+path = "eztrace.rs"
+
+[dependencies]
