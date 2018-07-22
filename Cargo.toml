@@ -2,8 +2,17 @@
 name = "eztrace"
 version = "0.1.0"
 authors = ["neptunepink <purpleposeidon@gmail.com>"]
+license = "MIT/Apache-2.0"
+
+description = "Zero-fuss debug tracing macro"
+repository = "https://github.com/purpleposeidon/eztrace"
+
 keywords = ["debug", "trace", "dev"]
 categories = ["development-tools::debugging"]
+
+maintenance = { status = "passively-maintained" }
+
+
 
 [lib]
 path = "eztrace.rs"
