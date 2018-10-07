@@ -8,8 +8,7 @@
 //!
 //! Usage:
 //! ```
-//! #[macro_use]
-//! extern crate eztrace;
+//! #[allow(unused_imports)] #[macro_use] extern crate eztrace;
 //! # fn main() {
 //! # let (my_variable, other_variable) = (42, 237);
 //! trace!(my_variable, other_variable);
