@@ -10,9 +10,10 @@ repository = "https://github.com/purpleposeidon/eztrace"
 keywords = ["debug", "trace", "dev"]
 categories = ["development-tools::debugging"]
 
+readme = "README.md"
+
+[badges]
 maintenance = { status = "passively-maintained" }
-
-
 
 [lib]
 path = "eztrace.rs"

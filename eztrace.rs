@@ -212,6 +212,8 @@ mod tests {
         //     x: 0.0,
         //     y: 0.0,
         // }
-
     }
 }
+
+// FIXME: Maybe the macro should emit a warning?
+// FIXME: Feature to always fail.
